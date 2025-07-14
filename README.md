@@ -37,7 +37,7 @@ Sebelum memulai, pastikan Anda sudah menginstal perangkat lunak berikut:
 ### 1. Clone Repository
 ```bash
 git clone https://github.com/alana48/video-face-detection.git
-cd repository-name
+```
 
 ### 2. Konfigurasi Database
 Jika Anda menggunakan database untuk menyimpan data wajah, buatlah database baru dan sesuaikan pengaturan di application/config/database.php sesuai dengan kredensial Anda.
@@ -45,30 +45,29 @@ Jika Anda menggunakan database untuk menyimpan data wajah, buatlah database baru
 ### 3. Menjalankan Aplikasi
 Pastikan server web Anda telah berjalan. Jika menggunakan Apache, pastikan mod_rewrite diaktifkan. Akses aplikasi Anda melalui browser di http://localhost/ atau alamat sesuai konfigurasi.
 
-Penggunaan
-1. Regis Face
+## Penggunaan
+### 1. Regis Face
 Untuk mendaftarkan wajah, buka halaman "Regis Face" di aplikasi. Sistem akan menggunakan kamera untuk menangkap wajah pengguna, yang kemudian disimpan ke dalam database.
 
-2. List Face
+### 2. List Face
 Pada menu ini, Anda dapat melihat daftar wajah yang terdaftar di sistem.
 
-3. Match Face
+### 3. Match Face
 Menu ini digunakan untuk mencocokkan wajah yang terdeteksi dengan data wajah yang terdaftar. Jika wajah terdeteksi dan cocok dengan salah satu data, video akan diputar.
 
-4. Video Detection
+### 4. Video Detection
 Halaman utama di mana video hanya dapat diputar jika wajah terdeteksi di depan kamera. Video tidak bisa dipercepat, dijeda, atau dilewati kecuali wajah yang terdaftar berada di depan kamera.
 
 ## Kontribusi
 Kami sangat menghargai kontribusi dari komunitas! Jika Anda ingin berkontribusi, silakan ikuti langkah-langkah berikut:
 
-Fork repo ini.
+#### 1. Fork repo ini.
 
-Buat cabang (branch) untuk fitur atau perbaikan yang Anda buat.
+#### 2. Buat cabang (branch) untuk fitur atau perbaikan yang Anda buat.
 
-Lakukan perubahan dan pastikan semuanya bekerja dengan baik.
+#### 3. Lakukan perubahan dan pastikan semuanya bekerja dengan baik.
 
-Buat pull request untuk menggabungkan perubahan Anda ke cabang utama.
+#### 4. Buat pull request untuk menggabungkan perubahan Anda ke cabang utama.
 
 ## Lisensi
 Proyek ini dilisensikan di bawah MIT License.
-

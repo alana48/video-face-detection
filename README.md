@@ -27,10 +27,8 @@ Proyek ini adalah aplikasi yang menggunakan **CodeIgniter 3** dan **face-api.js*
 Sebelum memulai, pastikan Anda sudah menginstal perangkat lunak berikut:
 
 - PHP (versi 7.4 atau lebih tinggi)
-- Composer
 - Web server seperti Apache atau Nginx
-- MySQL atau MariaDB (opsional jika menggunakan database)
-- Node.js (untuk menjalankan face-api.js)
+- MySQL 
 
 ## Instalasi
 
